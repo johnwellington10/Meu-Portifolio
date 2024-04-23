@@ -1,0 +1,68 @@
+@media(max-width: 1000px) {
+
+    .cabecalho .logo {
+        height: 60px;
+        width: 60px;
+        font-size: 27px;
+    }
+
+    .cabecalho .menu {
+        margin: 0 5px;
+        width: 300px;
+    }
+
+    .cabecalho .menu li a {
+        display: table-cell;
+        font-size: 15px;
+    }
+
+    #botao {
+        display: none;
+    }
+
+    .foto-perfil {
+        max-width: 400px;
+    }
+
+    .home {
+        padding: 20px;
+    }
+
+    .home .informacoes h1 {
+        font-size: 40px;
+    }
+
+    .home .informacoes p {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #botao-s {
+        width: 150px;
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+
+    #descricao {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 390px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #descricao {
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="responsivo.css">
+  <script src="https://kit.fontawesome.com/424d8c2efa.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>John Wellington - Desenvolvedor</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a href="#">
+      <h1 class="logo">JW</h1>
+    </a>
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#projetos">projetos</a>
+          <a href="#botao-s">sobre</a>
+          <a href="#socials">socials</a>
+        </li>
+      </ul>
+    </nav>
+    <button id="botao" onclick="abrirFormulario()">Deixar mensagem</button>
+
+    <form class="mensagem" action="https://formsubmit.co/john_wellingtonfag@hotmail.com" method="POST">
+      <input placeholder="Nome" type="text" name="nome">
+      <input placeholder="E-mail" type="text" name="email">
+      <input placeholder="Telefone" type="tel" name="telefone">
+      <textarea placeholder="Deixar mensagem" name="info"></textarea>
+      <button onclick="sumirFormulario()" class="enviar-botao" target="_blank">Enviar fromulario</button>
+    </form>
+    <div class="mascara-form">
+    </div>
+  </header>
+
+  <div class="foto-perfil">
+    <img src="imagens/foto2.png" alt="">
+  </div>
+
+  <section class="home">
+    <div class="informacoes">
+      <h1 class="titulo">John Wellington Fagundes Rosa</h1>
+      <p class="dev">Desenvolvedor Front End Júnior</p>
+      <p>Capaz de desenvolver projetos com muita dedicação! eu amo desenvolver</p>
+      <p> Sou um desenvolvedor em inicio de carreira, buscando maior aprendizado e crescimento na área, assim como
+        uma oportunidade para mostrar minhas habilidades. Estou preparado para os desafios que colocarem em
+        minha
+        frente</p>
+
+      <ul class="redes-sociais" id="socials">
+        <li>
+          <a href="https://www.linkedin.com/in/john-wellington-482687232/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://wa.me/5541984528010?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/johnwellington10" title="Ir para o GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button id="botao-s">Resumo</button>
+    <div id="descricao">
+      <p> Há 10 anos atras, eu aprendi HTML em um curso da escola I-Tech informática, tinha gostado muito de aprender,
+        mas nunca quis seguir uma carreira como programador, nem sabia se era possível, e então segui trabalhando em
+        empregos de CLT, sem realmente buscar uma formação acadêmica em qualquer ramo.
+        <br><br>
+        Depois de todo esse tempo, resolvi que era hora de mudar de patamar, e tentar uma nova carreira, com uma
+        profissão mais elevada, que pudesse mudar minha vida e faze-la crescer, e então vi um anúncio de um curso
+        gratuito de programação, e optei por faze-lo e me lembrei que eu gostava de programar, então resolvi me
+        dedicar aos estudos, para então poder buscar uma vaga na área.
+        <br><br>
+        Estou realmente disposto a entrar para um time de desenvolvedores, ou uma empresa, estando apto a atender as
+        necessidades dos mesmos, podendo estudar qualquer outra linguagem de programação que seja requerido pela
+        empresa.
+      </p>
+      <br><br>
+      <p class="linguagem">Linguagens que conheço:</p>
+      <br><br>
+      <p style="text-align: center;"> HTML, CSS e JAVASCRIPT, WordPress basico</p>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="projetos" id="projetos">
+    <h2 class="titulo">Projetos</h2>
+
+    <div class="container-projetos">
+      <div class="projeto ativo">
+        <a href="https://johnwellington10.github.io/Site-Mario/" target="_blank">
+          <img src="imagens/site-mario2.png" alt="Site Mario" />
+          <h3>Projeto 1</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto ativo">
+        <a href="https://johnwellington10.github.io/Calculadora/" target="_blank">
+          <img src="imagens/calculadora.png" alt="Projeto Calculadora" />
+          <h3>Projeto 2</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto ativo">
+        <a href="https://johnwellington10.github.io/LandingPage/" target="_blank">
+          <img src="imagens/academia.png" alt="Projeto landing page academia" />
+          <h3>Projeto 3</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto ativo">
+        <a href="https://johnwellington10.github.io/Site-GTA/" target="_blank">
+          <img src="imagens/projeto-gta.png" alt="Projeto site GTA" />
+          <h3>Projeto 4</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://johnwellington10.github.io/Pedra-papel-tesoura/" target="_blank">
+          <img src="imagens/pedrapapel.png" alt="Pedra Pael e Tesoura" />
+          <h3>Projeto 5</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://johnwellington10.github.io/To-Do-list/" target="_blank">
+          <img src="imagens/todo.png" alt="To do List" />
+          <h3>Projeto 6</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="https://johnwellington10.github.io/Site-Starbucks/" target="_blank">
+          <img src="imagens/starbucks.png" alt="Site Starbucks" />
+          <h3>Projeto 7</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <button class="btn-mostrar-projetos">Mostrar mais</button>
+  </section>
+
+</body>
+
+</html>
